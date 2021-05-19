@@ -123,7 +123,7 @@ lm.series <- function(M,design=NULL,ndups=1,spacing=1,weights=NULL) {
         wts <- sqrt(w)
         out <- .lm.fit(X*wts, y*wts)
       }
-      df.residual[i] <- nrow(x) - out$rank
+      df.residual[i] <- nrow(X) - out$rank
       est <- !is.na(out$coef)
       beta[i,] <- out$coef
       inv <- chol2inv(out$qr,size=out$rank)
