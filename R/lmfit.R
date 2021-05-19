@@ -121,7 +121,7 @@ lm.series <- function(M,design=NULL,ndups=1,spacing=1,weights=NULL) {
       } else {
         w <- as.vector(weights[i,obs])
         wts <- sqrt(w)
-        out <- .lm.fit(x*wts, y*wts)
+        out <- .lm.fit(X*wts, y*wts)
       }
       df.residual[i] <- nrow(x) - out$rank
       est <- !is.na(out$coef)
