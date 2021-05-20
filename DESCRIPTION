@@ -1,5 +1,5 @@
 Package: limma
-Version: 3.47.16
+Version: 3.48.0
 Date: 2021-05-18
 Title: Linear Models for Microarray Data
 Description: Data analysis, linear models and differential expression for microarray data.
@@ -8,6 +8,24 @@ Maintainer: Gordon Smyth <smyth@wehi.edu.au>
 License: GPL (>=2)
 Depends: R (>= 3.6.0)
 Imports: grDevices, graphics, stats, utils, methods
-Suggests: affy, AnnotationDbi, BiasedUrn, Biobase, ellipse, GO.db, gplots, illuminaio, locfit, MASS, org.Hs.eg.db, splines, statmod (>= 1.2.2), vsn
+Suggests: affy, AnnotationDbi, BiasedUrn, Biobase, ellipse, GO.db,
+        gplots, illuminaio, locfit, MASS, org.Hs.eg.db, splines,
+        statmod (>= 1.2.2), vsn
 URL: http://bioinf.wehi.edu.au/limma
-biocViews: ExonArray, GeneExpression, Transcription, AlternativeSplicing, DifferentialExpression, DifferentialSplicing, GeneSetEnrichment, DataImport, Bayesian, Clustering, Regression, TimeCourse, Microarray, MicroRNAArray, mRNAMicroarray, OneChannel, ProprietaryPlatforms, TwoChannel, Sequencing, RNASeq, BatchEffect, MultipleComparison, Normalization, Preprocessing, QualityControl, BiomedicalInformatics, CellBiology, Cheminformatics, Epigenetics, FunctionalGenomics, Genetics, ImmunoOncology, Metabolomics, Proteomics, SystemsBiology, Transcriptomics
+biocViews: ExonArray, GeneExpression, Transcription,
+        AlternativeSplicing, DifferentialExpression,
+        DifferentialSplicing, GeneSetEnrichment, DataImport, Bayesian,
+        Clustering, Regression, TimeCourse, Microarray, MicroRNAArray,
+        mRNAMicroarray, OneChannel, ProprietaryPlatforms, TwoChannel,
+        Sequencing, RNASeq, BatchEffect, MultipleComparison,
+        Normalization, Preprocessing, QualityControl,
+        BiomedicalInformatics, CellBiology, Cheminformatics,
+        Epigenetics, FunctionalGenomics, Genetics, ImmunoOncology,
+        Metabolomics, Proteomics, SystemsBiology, Transcriptomics
+git_url: https://git.bioconductor.org/packages/limma
+git_branch: RELEASE_3_13
+git_last_commit: 80b0a5e
+git_last_commit_date: 2021-05-19
+Date/Publication: 2021-05-19
+NeedsCompilation: yes
+Packaged: 2021-05-19 21:59:31 UTC; biocbuild
